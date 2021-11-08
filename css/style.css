@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+.text{
+    font-family: 'Abril Fatface', cursive; 
+}
+.nav-item{
+    padding: 0px 20px;
+}
+.home-img{
+    position: absolute;
+    left: 37%;
+    bottom: 44%;
+    text-align: center;
+}
+.margin-top{
+    margin-top: 100px;
+}
+.font-size{
+    color: white;
+}
+.picture{
+    position: absolute;
+    top: 62%;
+    left: 25%;
+}
+.market{
+    font-size: 12px;
+}
+.bg-color{
+    background-color: #b4f1f1;
+}
+.color{
+    color: #2d767f;
+}
+
+.ani-delay-1{
+    animation-delay: 0.5s;
+}
+
+.ani-delay-2{
+    animation-delay: 1s;
+}
+
+.ani-delay-3{
+    animation-delay: 1.5s;
+}
+
+.ani-delay-4{
+    animation-delay: 2s;
+}
+
+.ani-delay-5{
+    animation-delay: 2.5s;
+}
+@media screen and (max-width:1200px) {
+    /* .home-img{
+        position: absolute;
+        left: 37%;
+        bottom: 44%;
+        text-align: center;
+    } */
+    .display{
+        display: block;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .home-img{
+        bottom: 71%;
+        left: 31%;
+    }
+    .margin-top {
+        margin-top: 17px;
+    }
+    .display{
+        display: block;
+    }
+    .para{
+        font-size: 15px;
+    }
+    .graphic{
+        font-size: 20px;
+    }
+    .graphic-para{
+        font-size: 12px;
+    }
+    
+    }
+@media screen and (max-width:576px) {
+    .home-img {
+        bottom: 44%;
+        left: 15%;
+    }
+  
+    .display{
+        display: none;
+    }
+    .phone{
+        flex-direction: column-reverse;
+    }
+    .para{
+        font-size: 13px;
+    }
+    .card-phone{
+        height: 60vh;
+        background: white;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
